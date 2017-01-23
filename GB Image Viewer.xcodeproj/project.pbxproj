@@ -6,10 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		EF3718CC1E36AB9700995570 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EF3718CE1E36ABBB00995570 /* gfx.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = gfx.s; sourceTree = "<group>"; };
+		EF3718CF1E36ABBB00995570 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		EF3718C11E36AB8000995570 = {
 			isa = PBXGroup;
 			children = (
+				EF3718CC1E36AB9700995570 /* main.c */,
+				EF3718CE1E36ABBB00995570 /* gfx.s */,
+				EF3718CF1E36ABBB00995570 /* makefile */,
 			);
 			sourceTree = "<group>";
 		};
