@@ -82,20 +82,13 @@ void displayImage(UINT8 image)NONBANKED {
 }
 
 void main(void)NONBANKED {
+    
     // start up
-    
-    BGP_REG = 0x00;
-    
     HIDE_BKG;
-    disable_interrupts();
-    
     currentState = 0;
     currentImage = 0;
     displayImage(currentImage);
-    
     SHOW_BKG;
-    enable_interrupts();
-    
     fade_in();
     
     // main loop
@@ -120,4 +113,5 @@ void main(void)NONBANKED {
                 break; }
         }
     }
+    
 }
